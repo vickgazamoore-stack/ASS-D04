@@ -1,14 +1,4 @@
 
- // function calculate(event) {
-//     const studentName = document.getElementById("name").value;
-//     const  firstScore = number(document.getElementById ("firstscore").value);
-//    const  secondScore = number(document.getElementById ("secondscore").value);
-//     const  finalScore = number(document.getElementById ("finalscore").value);
-
-
-//  }
-    
-
 function calculate(event) {
     event.preventDefault();
     const studentName = document.getElementById("name").value;
