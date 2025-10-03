@@ -14,7 +14,7 @@ const finalGrade = (assignmentAverage) + (finalExam * 0.6);
 const hasPassed = finalGrade >= 70;
 
 // Logical operation
-const isExcellent = hasPassed && finalExam >= 90;
+const isExcellent = hasPassed && finalExam >= 85;
 
 // Display results
 console.log("Student Name:", studentName);
